@@ -1,0 +1,54 @@
+body{
+    overflow: hidden;
+}
+
+.root {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 600px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    width: 800px;
+    padding: 10px;
+}
+
+.box {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .removeBoxIcon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.box .contentText {
+    font-size: 45px;
+    font-weight: bold;
+}
+.header{
+    position: absolute;
+    top:0
+}
+button{
+    background: transparent;
+    border:1px solid black;
+    margin: 5px;
+    padding: 10px;
+    cursor:pointer;
+}
+footer{
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+}
